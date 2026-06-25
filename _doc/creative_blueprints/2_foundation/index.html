@@ -1,0 +1,41 @@
+<style>
+.mode-landscape .sl-panels { flex-direction: row; }
+.mode-portrait .sl-panels { flex-direction: column; }
+.mode-landscape .sl-panel { flex: 1; }
+.mode-portrait .sl-panel { width: 100%; }
+.mode-portrait .sl-divider { display: none; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12">
+    <p class="text-xs font-bold tracking-widest uppercase text-slate-400 mb-8">The Foundation</p>
+    <div class="sl-panels flex gap-8 flex-1">
+
+      <div class="sl-panel flex flex-col gap-4">
+        <div class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-red-400 flex-shrink-0"></span>
+          <span class="text-xs font-bold uppercase tracking-widest text-slate-400">The Problem</span>
+        </div>
+        <h2 class="text-2xl font-bold text-slate-900 leading-snug">Personal pages are over-engineered.</h2>
+        <p class="text-sm text-slate-600 leading-relaxed">Most personal pages demand too much — menus, scroll sections, forms, social feeds. The visitor gets lost before they reach the point.</p>
+        <div class="mt-auto p-4 rounded-xl bg-red-50 border border-red-100">
+          <p class="text-sm text-red-700">"I just need a page that says who I am. Why is it always so complicated?"</p>
+        </div>
+      </div>
+
+      <div class="sl-divider w-px bg-slate-100 self-stretch"></div>
+
+      <div class="sl-panel flex flex-col gap-4">
+        <div class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-indigo-500 flex-shrink-0"></span>
+          <span class="text-xs font-bold uppercase tracking-widest text-slate-400">The Solution</span>
+        </div>
+        <h2 class="text-2xl font-bold text-slate-900 leading-snug">One section. One greeting. Done.</h2>
+        <p class="text-sm text-slate-600 leading-relaxed">Hello Orias strips it to its essence: a single full-screen greeting that leaves no doubt who you're meeting. Zero noise, zero friction, instant impression.</p>
+        <div class="mt-auto p-4 rounded-xl bg-indigo-50 border border-indigo-100">
+          <p class="text-sm text-indigo-700">Every visitor lands on exactly one thing: <strong class="text-indigo-900">"Hello, Orias."</strong></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
