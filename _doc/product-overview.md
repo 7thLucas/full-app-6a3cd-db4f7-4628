@@ -1,0 +1,1 @@
+buatin 1 lp simple tulisan helo orias 1 seciton aja simpel
