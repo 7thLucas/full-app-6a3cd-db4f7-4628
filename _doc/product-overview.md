@@ -1,7 +1,7 @@
 # Hello Orias — Product Overview
 
 ## What It Is
-A minimal single-section landing page whose entire content is one clean greeting: **"Hello, Orias."** One page, one section, nothing more.
+A minimal single-section landing page whose entire content is one clean greeting. The app name — and therefore the greeting — is controlled via the configurables system (`appName`, default: **"Hello, Orias"**). One page, one section, nothing more.
 
 ## Purpose
 A personal presence / greeting page for Orias — designed to be shared as a direct, instantly memorable link. The whole point is immediate impact with zero clutter.
