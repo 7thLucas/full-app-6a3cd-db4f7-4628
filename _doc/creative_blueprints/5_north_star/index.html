@@ -1,0 +1,65 @@
+<style>
+.mode-landscape .sl-body { flex-direction: row; }
+.mode-portrait .sl-body { flex-direction: column; }
+.mode-landscape .sl-main { flex: 1; }
+.mode-landscape .sl-aside { width: 260px; }
+.mode-portrait .sl-main { width: 100%; }
+.mode-portrait .sl-aside { width: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12">
+
+    <div class="flex items-start justify-between mb-7">
+      <div>
+        <p class="text-xs font-bold tracking-widest uppercase text-slate-400 mb-1">North Star Metric</p>
+        <h2 class="text-3xl font-bold text-slate-900">Greetings Delivered / Week</h2>
+      </div>
+      <span class="text-xs font-semibold text-amber-700 bg-amber-50 border border-amber-200 px-3 py-1.5 rounded-full flex-shrink-0 ml-4">Projected impact — based on your inputs</span>
+    </div>
+
+    <div class="sl-body flex gap-5 flex-1">
+
+      <div class="sl-main flex flex-col gap-4">
+        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-100">
+          <p class="text-xs font-bold uppercase tracking-wide text-slate-400 mb-2">Core Operation</p>
+          <p class="text-sm font-bold text-slate-900">Greeting Delivered</p>
+          <p class="text-sm text-slate-600 mt-1 leading-relaxed">The moment a visitor loads the page and "Hello, Orias." is fully rendered on screen. This is the single event the product exists to produce.</p>
+          <p class="text-xs text-slate-400 mt-2 italic">Note: current scope is a static display page. Add a view counter or lightweight analytics to track this metric in production.</p>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-indigo-50 border border-indigo-100 flex-1">
+          <p class="text-xs font-bold uppercase tracking-wide text-indigo-600 mb-4">Formula Template</p>
+          <div class="flex flex-col gap-3 text-sm">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="bg-amber-100 border border-amber-300 text-amber-800 text-xs px-2 py-0.5 rounded-md font-semibold">Assumption — adjust this</span>
+              <span class="text-slate-600">Links shared per week (e.g. 5)</span>
+            </div>
+            <span class="text-slate-400 font-bold text-base pl-1">×</span>
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="bg-amber-100 border border-amber-300 text-amber-800 text-xs px-2 py-0.5 rounded-md font-semibold">Assumption — adjust this</span>
+              <span class="text-slate-600">Avg visits per shared link (e.g. 3)</span>
+            </div>
+            <span class="text-slate-400 font-bold text-base pl-1">=</span>
+            <div class="bg-indigo-600 text-white px-4 py-2.5 rounded-xl">
+              <span class="text-sm font-bold">e.g. 5 × 3 = </span>
+              <span class="text-lg font-black">15 greetings / week</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sl-aside flex flex-col gap-4">
+        <div class="p-5 rounded-2xl bg-slate-900 flex flex-col gap-3 flex-1">
+          <p class="text-xs font-bold uppercase tracking-wide text-slate-400">Current State</p>
+          <p class="text-2xl font-black text-white">Static</p>
+          <p class="text-sm text-slate-400 leading-relaxed">No analytics built in yet. To measure weekly greetings delivered, connect a view counter after launch.</p>
+        </div>
+        <div class="p-4 rounded-2xl bg-amber-50 border border-amber-100">
+          <p class="text-xs font-bold uppercase tracking-wide text-amber-600 mb-1">Value per delivery</p>
+          <p class="text-sm text-slate-700 leading-relaxed">Each greeting delivered = one clean, clutter-free first impression of Orias — the entire point of the product.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
