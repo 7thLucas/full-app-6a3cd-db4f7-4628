@@ -71,7 +71,7 @@ export type TDefaultConfigurableData = {
 };
 
 export const defaultConfigurablesData: TDefaultConfigurableData = {
-  appName: "My App",
+  appName: "Hello, Orias",
   logoUrl: "",
   brandColor: {
     // Base
